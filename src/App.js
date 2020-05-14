@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Container, Row, Col } from '@catho/quantum';
+import Link from './styles';
 
-function App() {
+const colsProps = {
+  medium: 12,
+};
+
+function App() {  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Container>
+        <Row>
+          <Col {...colsProps}>
+            <h2>SSR simulator</h2>
+            <h3>Choose your test</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col {...colsProps}>
+            <span>&rarr;</span><Link href="/quantum">Quantum</Link>
+          </Col>
+        </Row>
+        <Row>
+        <Col {...colsProps}>
+          <span>&rarr;</span><Link href="/cathocomponents">Catho components</Link>
+        </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
 

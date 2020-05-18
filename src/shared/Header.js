@@ -1,14 +1,14 @@
 import React from 'react';
-import Link from '../styles';
+import { Link } from "react-router-dom";
 
-const Header = ({title}) => (
+const Header = ({ title }) => (
   <>
     <div>
-      <Link href="/">Back to menu</Link>
+      <Link to="/">Back to menu</Link>
     </div>
     <h2>{title}</h2>
     <h3>Test your components below</h3>
-  </> 
- );
+  </>
+);
 
 export default Header;

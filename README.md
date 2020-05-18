@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### What is it?
+
+<p>This is a simple CSR simulator for test React components.<p>
+
+<p>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</p>
+
+### Made for what?
+
+<p>It was made to the last stage of the test ranges for [Quantum](https://github.com/catho/quantum) component delivery.</p>
 
 ## Available Scripts
 

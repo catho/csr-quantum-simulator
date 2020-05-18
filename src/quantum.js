@@ -20,6 +20,7 @@ import {
   SocialButton,
   Icon,
 } from '@catho/quantum';
+
 import { colors } from '@catho/quantum/shared/theme';
 
 import {
@@ -36,9 +37,12 @@ import {
   ToggleWithProps,
 } from './components';
 
+import Header from './shared/Header';
+
 const colsProps = {
   medium: 12,
 };
+
 
 export default function QuantumPage() {
 
@@ -46,7 +50,7 @@ export default function QuantumPage() {
     <>
       <Container>
         <Row>
-          <Col>
+          <Col {...colsProps}>
             <Header title="Quantum: components simulator" />
           </Col>
         </Row>

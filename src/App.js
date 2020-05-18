@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { GlobalStyle, Container, Row, Col } from '@catho/quantum';
+import { Container, Row, Col } from '@catho/quantum';
 import Quantum from './quantum';
 import CathoComponents from './cathocomponents';
 
@@ -16,7 +16,6 @@ const colsProps = {
 function App() {
   return (
     <>
-      <GlobalStyle />
       <Router>
         <Switch>
           <Route exact path="/">

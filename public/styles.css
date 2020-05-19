@@ -1,0 +1,14 @@
+html,
+body {
+  background: repeating-linear-gradient(
+    45deg,
+    #e8f0ff,
+    #e8f0ff 20px,
+    #e5edfc 20px,
+    #e5edfc 40px
+  );
+  font-family: "Oxygen", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
